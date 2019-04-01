@@ -37,10 +37,9 @@ public class Cliente {
 		
 		listaPedidos.add(item);
 		
-		Produto.tirarEstoque(nome, qtd);
+		Produto.tirarEstoque(nome, qtd);		
 		
-		Produto.listarTodos();
-		System.out.println("Pedido realizado");
+		System.out.println("\t Pedido realizado!");
 		
 		
 		

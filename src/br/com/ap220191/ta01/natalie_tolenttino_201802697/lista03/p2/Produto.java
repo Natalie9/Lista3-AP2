@@ -35,6 +35,20 @@ public class Produto {
 			}
 		}
 	}
+	
+	public static Double calcularPreco(String nomeProduto, int qtd) {
+
+		Produto novoProduto = new Produto();
+		for (Produto produto : listaProdutos) {
+			if (produto.getNome().equals(nomeProduto)) {
+				int index= listaProdutos.indexOf(produto);
+				return novoProduto.getPreco()*qtd;
+				
+			}
+			
+		}
+		return null;
+	}
 
 	public static Produto buscaProduto(String nomeProduto) {
 
@@ -53,7 +67,7 @@ public class Produto {
 
 	public static void listarTodos() {
 		for (Produto produto : listaProdutos) {
-			System.out.println(produto.getNome() + " quantidade: " + produto.getQtdEstoque());
+			System.out.println("Produto: "+produto.getNome() + " quantidade: " + produto.getQtdEstoque());
 		}
 	}
 
