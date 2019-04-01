@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import br.com.ap220191.ta01.natalie_tolenttino_201802697.lista03.p2.Contato;
+import br.com.ap220191.ta01.natalie_tolenttino_201802697.lista03.p2.Ex01.Contato;
 
 public class Livro {
 
