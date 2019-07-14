@@ -10,7 +10,7 @@ public class Emprestimo {
 	Livro livro;
 
 	private static List<Emprestimo> listaEmprestimos = new ArrayList<Emprestimo>();
-
+//apenas um comentário para commit
 	public static void main(String args[]) {
 		Scanner ler = new Scanner(System.in);
 		int op = 0;
